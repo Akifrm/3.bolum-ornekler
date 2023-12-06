@@ -5,6 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #img-div {
+            float: right;
+            width: 700px;
+        }
+
+        #img {
+            float: right;
+            width: 600px;
+            display: inline;
+        }
+
+        #yukari {
+            height: 50px;
+            background-color: black;
+        }
+
+        #sol {
+            height: 400px;
+            float: left;
+            width: 100px;
+            background-color: orange;
+        }
+
+        #alt {
+            width: 700px;
+            height: 425px;
+            bottom: 0px;
+            background-color: lime;
+        }
+    </style>
 </head>
 
 <body>
@@ -33,8 +64,13 @@
             olarak bir div boyutunu ne olursa olsun, o yükseklikte alanı kendine ayırır. Birden fazla tarımsal alanı yan
             yana eklemek için float değerine bir atama yaparsınız...
         </li>
-
     </ul>
+    <div id="img-div">
+        <div id="yukari"></div>
+        <div id="sol"></div>
+        <div id="img"><img width="600px" src="./tembel.jpg" alt="tembel hayvan" title="tembel hayvan" /></div>
+        <div id="alt"></div>
+    </div>
 </body>
 
 </html>
