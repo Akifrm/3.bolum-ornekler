@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    HTML elementleri icerisinde iki element bize sayfa üzerinde listeleme yapmak için olanak sunar. Bunlardan bir tanesi
+    <strong>"ul" (unordered list)</strong>, bir tanesi ise <strong>"ol" (ordered list)</strong>'dir. <br><br>
+    Her iki listeleme tipinde de ortak bir element vardır Bu element de <strong>"li" (list item)</strong>
+    elementidir.<br><br>
+
+    Aşağıdaki örnekler Düzenli bir listeyi göstermektedir:<br><br>
+    <ol type="1">
+        <li>Galatasaray</li>
+        <li>Beşiktaş</li>
+        <li>Trabzonspor</li>
+        <li>Bursaspor</li>
+    </ol>
+    <hr>
+
+    Aşağıdaki örnek Düzensiz bir listeyi göstermektedir:
+
+    <ul type="disc">
+        <li>Introduction</li>
+        <li>Object Oriented Programming</li>
+        <li>Windows Programlama</li>
+        <li>SQL Server</li>
+        <li>ADO.NET</li>
+        <ul type="circle">
+            <li>Connected Mimari</li>
+            <li>Disconnected Mimari</li>
+            <li>XML</li>
+        </ul>
+        <li>Web Programlama</li>
+        <ul type="circle">
+            <li>Static web</li>
+            <ul type="square">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript - JQuary</li>
+            </ul>
+            <li>Dinamik web</li>
+            <ul type="square">
+                <li>ASP.NET</li>
+                <li>PHP</li>
+            </ul>
+        </ul>
+    </ul>
+</body>
+
+</html>
