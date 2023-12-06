@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border: 3px solid gray;
+        }
+        tr,
+        td {
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+    Sayfa üzerinde bir takım verileri tablo formatında göstermek icin size sunulan element "table" elementidir. "td" ve
+    "tr" en çok kullanılan child elementidir. TD: kolon bilgisini, TR ise satır bilgisini temsil eder..
+
+    Bazı özellikleri; <br><br>
+    <ul>
+        <li>Width => Tablonun genisligini verir...</li>
+        <li>Border => Tablonu iç ve dış çerceveleri için bir boyut verilir...</li>
+        <li>Cellspacing => Hucrelerin birbirine olan uzaklıklarını verir...</li>
+        <li>Cellpadding => Hucre içerisindeki değerlerin dış çerceveye olan uzaklıklarını verir...</li>
+        <li>colspan => Hucrelerin merge edilmesini (birleştirilmesini) sağlayan özelliktir. Aşağıdaki tabloda vermiş
+            olduğumuz 2 değeri, o hücrenin 2 stunlukmuş gibi davranmasını söyler...</li>
+        <li>Rowspan Satırları merge(birleşmesi)'ni sağlar</li>
+    </ul>
+    <table>
+        <tr>
+            <td>ADI</td>
+            <td>SOYADI</td>
+        </tr>
+        <tr>
+            <th colspan="2" style="padding: 0px 375px;">Bu tablo içerisinde sınıf mevcudu yer almaktadır.</th>
+        </tr>
+        <tr>
+            <td>Ahmet</td>
+            <td>Yıldız</td>
+        </tr>
+        <tr>
+            <td>Ali Veli</td>
+            <td>Tanır</td>
+        </tr>
+        <tr>
+            <td>Erhan</td>
+            <td>Ölçek</td>
+        </tr>
+    </table>
+</body>
+
+</html>
